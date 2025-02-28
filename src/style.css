@@ -29,13 +29,22 @@ h2 {
     gap: 2px;
 }
 
-a:visited {
+a {
     color: #000;
 }
 
-a:pressed {
+a:hover {
     color: #000;
 }
+
+a:link {
+    color: #000;
+}
+
+a:active {
+    color: #000;
+}
+
 
 /* Main Content Area (Left 66%) */
 .main-content {
