@@ -243,4 +243,8 @@ img {
     .terminal-line {
         font-size: 0.9rem;
     }
+    .iframe-container {
+        min-height: 70vh
+    }
 }
+
