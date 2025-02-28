@@ -1,0 +1,237 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    min-height: 100vh;
+}
+
+h2 {
+    color: #000;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.3;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
+    gap: 2px;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:pressed {
+    color: #000;
+}
+
+/* Main Content Area (Left 66%) */
+.main-content {
+    grid-row: span 2;
+    background: url('/assets/backgroundpng.png') center/cover;
+    padding: 5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-top {
+    flex-grow: 0;
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Terminal Styles */
+.terminal {
+    align-self: flex-start;
+    padding: 1rem;
+    margin-top: auto;
+    width: 100%;
+    max-width: 33vw;
+    padding-top: 25vh;
+}
+
+.terminal-line {
+    margin: 0.5rem 0;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s forwards;
+}
+
+/* Side Sections (Right 33%) */
+.side-top, .side-bottom {
+    background: #fff;
+    padding: 2rem;
+    border-left: 1px solid #333;
+}
+
+.side-top {
+    /* Center vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100%;
+}
+
+.side-bottom {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+/* Typography */
+.title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 255, 255, 0.3);
+}
+
+.location-date {
+    display: inline-block;
+    border: 4px solid #fff;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.info-text {
+    margin: 1rem 0;
+    color: #666;
+    line-height: 2em;
+    font-size: 1rem;
+}
+
+.seats {
+    color: #666;
+    margin-top: 1rem;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #000;
+    text-decoration: none;
+    transition: all 0.3s;
+    white-space: nowrap;
+}
+
+.button:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    
+    .main-content {
+        grid-row: 1;
+        padding: 2rem;
+        min-height: 70vh;
+    }
+    
+    .terminal {
+        max-width: 100%;
+        padding-top: 10vh;
+    }
+    
+    .side-top {
+        grid-row: 2;
+        border-left: none;
+        border-top: 1px solid #333;
+        padding: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+        max-width: 100%;
+    }
+    
+    .side-bottom {
+        grid-row: 3;
+        border-left: none;
+        border-top: 1px solid #333;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2rem;
+    }
+    
+    .side-bottom a {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Medium screen adjustments */
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    .info-text {
+        font-size: 0.9rem;
+    }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 480px) {
+    .main-content {
+        padding: 1rem;
+    }
+    
+    .location-date {
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        border-width: 2px;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    .info-text {
+        font-size: 0.9rem;
+        line-height: 1.8em;
+    }
+    
+    .button {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .terminal-line {
+        font-size: 0.9rem;
+    }
+}
