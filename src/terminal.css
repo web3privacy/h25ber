@@ -1,0 +1,201 @@
+.terminal-container {
+    background-color: #000;
+    color: #fff;
+    font-family: monospace;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.terminal-header {
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+.terminal-content {
+    flex: 1;
+    overflow-y: auto;
+    outline: none;
+}
+
+.terminal-item {
+    position: relative;
+    cursor: pointer;
+}
+
+.terminal-item-row {
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.terminal-item:hover .terminal-item-row {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.terminal-item.selected .terminal-item-row {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.terminal-item-prefix {
+    margin-right: 10px;
+    opacity: 0.8;
+}
+
+.terminal-item-title {
+    font-weight: bold;
+}
+
+.terminal-item-content {
+    display: none;
+    padding: 10px 10px 10px 30px;
+    background-color: rgba(255, 255, 255, 0.05);
+    white-space: pre-wrap;
+    line-height: 1.4;
+}
+
+.terminal-item.expanded .terminal-item-content {
+    display: block;
+}
+
+.terminal-subitem {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.terminal-subitem:last-child {
+    margin-bottom: 0;
+}
+
+.terminal-subtitle-row {
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+}
+
+.terminal-subitem:hover .terminal-subtitle-row {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.terminal-subitem.selected .terminal-subtitle-row {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.terminal-subtitle {
+    color: #fff;
+    font-weight: bold;
+}
+
+.terminal-subcontent {
+    display: none;
+    padding: 10px 10px 10px 30px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+.terminal-subitem.expanded .terminal-subcontent {
+    display: block;
+}
+
+.terminal-footer {
+    padding: 10px;
+    border-top: 1px solid #fff;
+    margin-top: 20px;
+    font-size: 0.9em;
+    opacity: 0.7;
+}
+
+/* Scrollbar Styling */
+.terminal-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.terminal-content::-webkit-scrollbar-track {
+    background: #000;
+}
+
+.terminal-content::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 4px;
+}
+
+/* Animation */
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.cursor {
+    display: inline-block;
+    width: 8px;
+    height: 15px;
+    background-color: #fff;
+    margin-left: 5px;
+    animation: blink 1s infinite;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .terminal-container {
+        padding: 10px;
+    }
+
+    .terminal-header {
+        padding: 8px;
+        margin-bottom: 10px;
+        font-size: 0.9em;
+    }
+
+    .terminal-item-row,
+    .terminal-subtitle-row {
+        padding: 12px 10px; /* Increased touch target */
+    }
+
+    .terminal-item-content {
+        padding: 10px 10px 10px 20px;
+    }
+
+    .terminal-subtitle {
+        font-size: 0.95em;
+    }
+
+    .terminal-subcontent {
+        padding: 10px 10px 10px 25px;
+        font-size: 0.9em;
+        line-height: 1.4;
+    }
+
+    .terminal-footer {
+        display: none; /* Hide footer on mobile */
+    }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 480px) {
+    .terminal-container {
+        padding: 5px;
+    }
+
+    .terminal-header {
+        font-size: 0.85em;
+    }
+
+    .terminal-subtitle {
+        font-size: 0.9em;
+    }
+
+    .terminal-subcontent {
+        font-size: 0.85em;
+    }
+}
+
+.terminal-main-content {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    white-space: pre-wrap;
+    color: #fff;
+} 

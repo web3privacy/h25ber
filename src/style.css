@@ -157,6 +157,10 @@ img {
     }
 }
 
+.z-10 {
+    background: black;
+}
+
 /* Mobile Responsiveness */
 @media screen and (max-width: 768px) {
     .grid-container {
