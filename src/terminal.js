@@ -121,7 +121,7 @@ const terminalItems = [
                         </div>
                         <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
                             <img src="assets/alex.jpg" alt="Alex" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
-                            <p style="margin: 0;">Alex - Fluidkey </p>
+                            <p style="margin: 0;">Alex - Session </p>
                         </div>
                         <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
                             <img src="assets/lftherios.png" alt="Lftherios" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
