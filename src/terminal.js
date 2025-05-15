@@ -31,16 +31,22 @@ const terminalItems = [
             },
             {
                 subtitle: "Applied Encryption",
-                content: "How can we practically strengthen the cryptography behind the tools and services people rely on today? Enhance existing projects, revive abandoned ones, and apply new logic to proven encryption models.\n\nExamples:\n• Encrypt hidden messages within music (carnation.fm)\n• Investigating and flagging privacy technologies using outdated cryptographic libraries\n• Rejuvenating sunset projects with outdated cryptography\n• Create a privacy/encryption-focused CRM system\n• Add Threshold or Multi-signature schemes in single-sig wallets\n• Improving encryption standards for Post-Quantum Resistance\n• Adding double-ratchet or modern encryption protocols to applications"
+                content: "How can we practically strengthen the cryptography behind the tools and services people rely on today? Enhance existing projects, revive abandoned ones, and apply new logic to proven encryption models.\n\nExamples:\n• Encrypt hidden messages within music (carnation.fm)\n• Investigating and flagging privacy technologies using outdated cryptographic libraries\n• Rejuvenating sunset projects with outdated cryptography\n• Create a privacy/encryption-focused CRM system\n• Add Threshold or Multi-signature schemes in single-sig wallets\n• Improving encryption standards for Post-Quantum Resistance\n• Adding double-ratchet or modern encryption protocols to applications \n• Governance models supporting anonymous or pseudonymous participation" 
             },
             {
                 subtitle: "Censorship Resistance",
-                content: "Build or empower protocols and networks that protect users and content against digital censorship by outside parties.\n\nSupported Networks:\n• Tor Browser\n• i2p\n• mixnets (0KN, HOPR, Katzenpost, Nym, xx.network)\n• Nostr\n• Fileverse\n\nExample Technology Stacks:\n• BitTorrent\n• Mesh networks (Reticulum / Meshtastic)\n• Bluetooth mesh networks\n• Adding privacy to current p2p protocols"
+                content: "Build or empower protocols and networks that protect users and content against digital censorship by outside parties.\n\ Examples:\n• Tor Browser\n• i2p\n• mixnets (0KN, HOPR, Katzenpost, Nym, xx.network)\n• Nostr\n• Fileverse \n• BitTorrent\n• Mesh networks (Reticulum / Meshtastic)\n• Bluetooth mesh networks\n• Adding privacy to current p2p protocols \n• Privacy-First collaboration frameworks \n• Peer-2-peer Coordination applications"
             },
             {
                 subtitle: "Privacy focused AI",
                 content: "As AI becomes increasingly integrated into our daily lives, it is important that we can interact with it in the best possible way. User's right to privacy should be respected from all perspectives and by default.\n\nFocus Areas:\n• Protect personal files while giving AI access to your codebase\n• Utilise AI systems on sensitive information securely\n• Censorship-resistant LLMs / AI models\n• Build applications that utilise anonymous datasets\n• Disrupt AI facial recognition systems"
+            },
+
+            {
+                subtitle: "Privacy & Public Goods",
+                content: "How can we protect individual privacy while supporting public infrastructure and real-world impact? \nThis track explores how privacy-preserving technologies can strengthen compliance, humanitarian aid, and everyday coordination—especially where traditional systems fall short. \nYou are invited to design solutions that balance privacy, usability, and trust. \n• Privacy-first payment and humanitarian aid systems \n• Everyday coordination applications \n• Privacy-preserving tools for public goods funding and governance "
             }
+                
         ]
     },
     {
@@ -53,10 +59,6 @@ const terminalItems = [
             {
                 subtitle: "User Onboarding",
                 content: "Privacy-focused applications often suffer from proper onboarding process for new users. This track seeks to enhance the new user experience.\n\nExample Projects:\n• Improving in-app onboarding process\n• Improving app and website accessibility (WC3 standards)\n• Curation of \"2025 cryptographic best practices\" for web3 wallet devs\n• Review of the current e2e landscape in chat and social media\n• Creating video guides for protocols"
-            },
-            {
-                subtitle: "Translations",
-                content: "The majority of this world is not a native English speaker, yet the majority of tooling we see out there is almost exclusively in English.\n\nImprove non-English translations of applications into global languages:\n• Chinese\n• Hindi\n• Russian\n• Spanish\n• French\n• Any other language the participant knows fluently"
             }
         ]
     },
@@ -112,40 +114,100 @@ const terminalItems = [
                 content: `
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; padding: 20px;">
                         <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                            <img src="assets/sebastian.jpg" alt="Sebastian" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <img src="assets/sebastian.png" alt="Sebastian" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
                             <p style="margin: 0;">Sebastian - Hopr</p>
                         </div>
                         <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                            <img src="assets/alan.jpg" alt="Alan" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <img src="assets/alex-1.png" alt="Alan" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
                             <p style="margin: 0;">Alan - Railgun </p>
                         </div>
                         <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                            <img src="assets/alex.jpg" alt="Alex" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <img src="assets/alex.png" alt="Alex" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
                             <p style="margin: 0;">Alex - Session </p>
                         </div>
                         <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                            <img src="assets/lftherios.png" alt="Lftherios" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
-                            <p style="margin: 0;">Lftherios - Radicle </p>
+                            <img src="assets/eleftherios.png" alt="Lftherios" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Eleftherios - Radicle </p>
                         </div>
                         <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                            <img src="assets/bertrand.jpeg" alt="Bertrand" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <img src="assets/bertrand.png" alt="Bertrand" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
                             <p style="margin: 0;">Bertrand - Celo</p>
                         </div>
                         <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                            <img src="assets/tranquilflow.jpg" alt="TranquilFlow" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <img src="assets/tranquil.png" alt="TranquilFlow" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
                             <p style="margin: 0;">TranquilFlow - Byzantine </p>
                         </div>
                         <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                            <img src="assets/jacob.jpg" alt="Jacob" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <img src="assets/jacob.png" alt="Jacob" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
                             <p style="margin: 0;">Jacob - Phylax Systems</p>
                         </div>
                         <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                            <img src="assets/owen.jpg" alt="Owen" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <img src="assets/owen.png" alt="Owen" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
                             <p style="margin: 0;">Owen - Poly </p>
                         </div>
                         <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                            <img src="assets/bianca.jpg" alt="Bianca" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <img src="assets/bianca.png" alt="Bianca" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
                             <p style="margin: 0;">Bianca - Chronicle </p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <img src="assets/vitalik.png" alt="Vitalik" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Vitalik - Ethereum</p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <img src="assets/giacomo.png" alt="Giacomo" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Giacomo - ZK/Encryption/PSE</p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <img src="assets/kieran.png" alt="Kieran" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Kieran - Railgun</p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <img src="assets/milos.png" alt="Milos" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Milos - EF</p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <img src="assets/max.png" alt="Max" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Max - Nym</p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <img src="assets/pentacle.png" alt="Pentacle" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Pentacle - Independent</p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <img src="assets/anton.png" alt="Anton" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Anton - Calimero</p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <img src="assets/cat.png" alt="Cat" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Cat - Aztec</p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <img src="assets/antonio.png" alt="Antonio" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Antonio - Fluidkey</p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <img src="assets/oskarth.png" alt="Oskarth" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Oskarth - Independent</p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <img src="assets/christopher.png" alt="Christopher" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Christopher - Anoma</p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <img src="assets/jim.png" alt="JimJim" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">JimJim.eth</p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <img src="assets/zimt.png" alt="Zimt" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Zimt - BlockchainGov</p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <img src="assets/miroyato.png" alt="Andreas" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Miroyato - Fileverse</p>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <img src="assets/ying.png" alt="Ying Tong" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Ying Tong - Applied Cryptographer</p>
                         </div>
                     </div>
                 `
