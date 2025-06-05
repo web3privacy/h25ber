@@ -11,6 +11,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         info: resolve(__dirname, 'info.html'),
+        info: resolve(__dirname, 'manual.html'),
       },
       output: {
         entryFileNames: 'assets/[name].js',
