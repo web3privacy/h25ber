@@ -134,8 +134,8 @@ const terminalItems = [
                             <p style="margin: 0;">Bertrand - Celo</p>
                         </div>
                         <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                            <img src="assets/tranquil.png" alt="TranquilFlow" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
-                            <p style="margin: 0;">TranquilFlow - Byzantine </p>
+                            <img src="assets/evi.png" alt="Evi" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
+                            <p style="margin: 0;">Evi - Byzantine </p>
                         </div>
                         <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
                             <img src="assets/jacob.png" alt="Jacob" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px;" />
